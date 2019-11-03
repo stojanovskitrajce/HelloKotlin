@@ -18,7 +18,12 @@ val intent = Intent(applicationContext,Main2Activity::class.java)
         intent.putExtra("user",editText.text.toString())
     startActivity(intent)
     }
+    fun loadKenny (view: View){
+val keni=Intent(applicationContext,kenny::class.java)
+        startActivity(keni)
+    }
 }
+
 //lateinit var sharedPreferences : SharedPreferences
 //    var ageFromPreferences : Int? = null
 //
